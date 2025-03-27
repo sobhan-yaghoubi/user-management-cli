@@ -1,0 +1,29 @@
+{
+  "name": "customer-list-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "swc src -d dist",
+    "start": "node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "inquirer": "^12.5.0",
+    "tsx": "^4.19.3"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.6.0",
+    "@swc/core": "^1.11.13",
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^22.13.12",
+    "prisma": "^6.5.0",
+    "typescript": "^5.8.2"
+  }
+}

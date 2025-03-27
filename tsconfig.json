@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Modern JS features
+    "module": "NodeNext", // Aligns with Node.js ESM/CJS
+    "rootDir": "./src", // Source code directory
+    "outDir": "./dist", // Compiled JS output
+    "strict": true, // Best type safety
+    "esModuleInterop": true, // Better ESM/CJS compatibility
+    "skipLibCheck": true, // Slightly faster builds
+    "moduleResolution": "NodeNext", // For Node.js module resolution
+    "resolveJsonModule": true, // Allows importing JSON
+    "allowJs": true, // Optional: If mixing JS/TS
+    "forceConsistentCasingInFileNames": true, // Avoid filesystem case issues
+    "noUnusedLocals": true, // Warn unused variables
+    "noUnusedParameters": true // Warn unused function params
+  },
+  "include": ["src/**/*"], // Files to compile
+  "exclude": ["node_modules"] // Ignore these
+}
