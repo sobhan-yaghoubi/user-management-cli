@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "cl": "./dist/src/commander.js"
+    "cli": "./dist/src/index.js"
   },
   "keywords": [],
   "author": "",
