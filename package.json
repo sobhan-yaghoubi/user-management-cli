@@ -1,7 +1,7 @@
 {
-  "name": "customer-list-cli",
+  "name": "user-management-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A blazing-fast CLI tool for user management built with TypeScript, SWC, and tsx. Easily create, update, and delete users via the command line.",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -12,9 +12,23 @@
   "bin": {
     "cli": "./dist/src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cli",
+    "user management",
+    "typescript",
+    "swc",
+    "tsx",
+    "command-line",
+    "nodejs",
+    "developer tools",
+    "user manager"
+  ],
+  "author": "Sobhan Yaghoubi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sobhan-yaghoubi/user-management-cli.git"
+  },
   "type": "module",
   "dependencies": {
     "@prisma/client": "^6.5.0",
